@@ -6,6 +6,6 @@
 - To Start the project we need to install few resources on the IDE
 - At first install textblob for python -> pip install textblob
 - next install the flask framework -> pip install flask
--> and then -> pip install flask_bootstrap
+- and then -> pip install flask_bootstrap
 - to run the project -> python app.py
 
