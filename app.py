@@ -1,7 +1,6 @@
 from flask import Flask, render_template,request,url_for
 from flask_bootstrap import Bootstrap 
 
-
 # NLP Packages
 from textblob import TextBlob,Word 
 import random 
@@ -42,10 +41,6 @@ def analyse():
 
 
 	return render_template('index.html',received_text = received_text2,number_of_tokens=number_of_tokens,blob_sentiment=blob_sentiment,blob_subjectivity=blob_subjectivity,summary=summary,final_time=final_time)
-
-
-
-
 
 
 if __name__ == '__main__':
